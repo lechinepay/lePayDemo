@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4718E2171D6FF0470041F9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2161D6FF0470041F9E3 /* main.m */; };
+		4718E21A1D6FF0470041F9E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2191D6FF0470041F9E3 /* AppDelegate.m */; };
+		4718E21D1D6FF0470041F9E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E21C1D6FF0470041F9E3 /* ViewController.m */; };
+		4718E2201D6FF0470041F9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4718E21E1D6FF0470041F9E3 /* Main.storyboard */; };
+		4718E2221D6FF0470041F9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4718E2211D6FF0470041F9E3 /* Assets.xcassets */; };
+		4718E2251D6FF0470041F9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4718E2231D6FF0470041F9E3 /* LaunchScreen.storyboard */; };
+		4718E2811D6FF1230041F9E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2801D6FF1230041F9E3 /* CoreGraphics.framework */; };
+		4718E2831D6FF1290041F9E3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2821D6FF1290041F9E3 /* CoreText.framework */; };
+		4718E2851D6FF12F0041F9E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2841D6FF12F0041F9E3 /* QuartzCore.framework */; };
+		4718E2871D6FF1360041F9E3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2861D6FF1360041F9E3 /* CFNetwork.framework */; };
+		4718E2891D6FF13B0041F9E3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2881D6FF13B0041F9E3 /* CoreMotion.framework */; };
+		4718E28B1D6FF1450041F9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E28A1D6FF1450041F9E3 /* Foundation.framework */; };
+		4718E28D1D6FF1490041F9E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E28C1D6FF1490041F9E3 /* UIKit.framework */; };
+		4718E28F1D6FF14F0041F9E3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E28E1D6FF14F0041F9E3 /* CoreTelephony.framework */; };
+		4718E2911D6FF1540041F9E3 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2901D6FF1540041F9E3 /* PassKit.framework */; };
+		4718E2931D6FF15A0041F9E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2921D6FF15A0041F9E3 /* Security.framework */; };
+		4718E2951D6FF1640041F9E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2941D6FF1640041F9E3 /* SystemConfiguration.framework */; };
+		4718E2971D6FF16E0041F9E3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2961D6FF16E0041F9E3 /* libc++.tbd */; };
+		4718E2991D6FF1760041F9E3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E2981D6FF1760041F9E3 /* libsqlite3.0.tbd */; };
+		4718E29B1D6FF17C0041F9E3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E29A1D6FF17C0041F9E3 /* libz.tbd */; };
+		4718E2B01D6FF2710041F9E3 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E29E1D6FF2710041F9E3 /* AFHTTPRequestOperation.m */; };
+		4718E2B11D6FF2710041F9E3 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2A01D6FF2710041F9E3 /* AFHTTPRequestOperationManager.m */; };
+		4718E2B21D6FF2710041F9E3 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2A21D6FF2710041F9E3 /* AFHTTPSessionManager.m */; };
+		4718E2B31D6FF2710041F9E3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2A51D6FF2710041F9E3 /* AFNetworkReachabilityManager.m */; };
+		4718E2B41D6FF2710041F9E3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2A71D6FF2710041F9E3 /* AFSecurityPolicy.m */; };
+		4718E2B51D6FF2710041F9E3 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2A91D6FF2710041F9E3 /* AFURLConnectionOperation.m */; };
+		4718E2B61D6FF2710041F9E3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2AB1D6FF2710041F9E3 /* AFURLRequestSerialization.m */; };
+		4718E2B71D6FF2710041F9E3 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2AD1D6FF2710041F9E3 /* AFURLResponseSerialization.m */; };
+		4718E2B81D6FF2710041F9E3 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E2AF1D6FF2710041F9E3 /* AFURLSessionManager.m */; };
+		4718E3EA1D70134B0041F9E3 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4718E3CE1D70134B0041F9E3 /* AlipaySDK.bundle */; };
+		4718E3EB1D70134B0041F9E3 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E3CF1D70134B0041F9E3 /* AlipaySDK.framework */; };
+		4718E3EC1D70134B0041F9E3 /* LePayPicture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4718E3D91D70134B0041F9E3 /* LePayPicture.bundle */; };
+		4718E3ED1D70134B0041F9E3 /* liblepay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E3DC1D70134B0041F9E3 /* liblepay.a */; };
+		4718E3EE1D70134B0041F9E3 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E3DD1D70134B0041F9E3 /* libSocialWechat.a */; };
+		4718E3EF1D70134B0041F9E3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718E3DE1D70134B0041F9E3 /* libWeChatSDK.a */; };
+		4718E3F01D70134B0041F9E3 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718E3E71D70134B0041F9E3 /* UIButton+countDown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4718E2121D6FF0470041F9E3 /* LePayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LePayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4718E2161D6FF0470041F9E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4718E2181D6FF0470041F9E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4718E2191D6FF0470041F9E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4718E21B1D6FF0470041F9E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4718E21C1D6FF0470041F9E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4718E21F1D6FF0470041F9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4718E2211D6FF0470041F9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4718E2241D6FF0470041F9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4718E2261D6FF0470041F9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4718E2801D6FF1230041F9E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4718E2821D6FF1290041F9E3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4718E2841D6FF12F0041F9E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4718E2861D6FF1360041F9E3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4718E2881D6FF13B0041F9E3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4718E28A1D6FF1450041F9E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4718E28C1D6FF1490041F9E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4718E28E1D6FF14F0041F9E3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4718E2901D6FF1540041F9E3 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		4718E2921D6FF15A0041F9E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4718E2941D6FF1640041F9E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4718E2961D6FF16E0041F9E3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4718E2981D6FF1760041F9E3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4718E29A1D6FF17C0041F9E3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4718E29D1D6FF2710041F9E3 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4718E29E1D6FF2710041F9E3 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4718E29F1D6FF2710041F9E3 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4718E2A01D6FF2710041F9E3 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4718E2A11D6FF2710041F9E3 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4718E2A21D6FF2710041F9E3 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4718E2A31D6FF2710041F9E3 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4718E2A41D6FF2710041F9E3 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4718E2A51D6FF2710041F9E3 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4718E2A61D6FF2710041F9E3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4718E2A71D6FF2710041F9E3 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4718E2A81D6FF2710041F9E3 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4718E2A91D6FF2710041F9E3 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4718E2AA1D6FF2710041F9E3 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4718E2AB1D6FF2710041F9E3 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4718E2AC1D6FF2710041F9E3 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4718E2AD1D6FF2710041F9E3 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4718E2AE1D6FF2710041F9E3 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4718E2AF1D6FF2710041F9E3 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4718E3CD1D70134B0041F9E3 /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		4718E3CE1D70134B0041F9E3 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		4718E3CF1D70134B0041F9E3 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		4718E3D01D70134B0041F9E3 /* CardInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardInformationCell.h; sourceTree = "<group>"; };
+		4718E3D11D70134B0041F9E3 /* CardInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardInformationViewController.h; sourceTree = "<group>"; };
+		4718E3D21D70134B0041F9E3 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		4718E3D31D70134B0041F9E3 /* Lechienpay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lechienpay.h; sourceTree = "<group>"; };
+		4718E3D41D70134B0041F9E3 /* LePayAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LePayAP.h; sourceTree = "<group>"; };
+		4718E3D51D70134B0041F9E3 /* LePayBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LePayBank.h; sourceTree = "<group>"; };
+		4718E3D61D70134B0041F9E3 /* LePayBankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LePayBankCell.h; sourceTree = "<group>"; };
+		4718E3D71D70134B0041F9E3 /* LePayBankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LePayBankModel.h; sourceTree = "<group>"; };
+		4718E3D81D70134B0041F9E3 /* LePayBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LePayBankViewController.h; sourceTree = "<group>"; };
+		4718E3D91D70134B0041F9E3 /* LePayPicture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LePayPicture.bundle; sourceTree = "<group>"; };
+		4718E3DA1D70134B0041F9E3 /* LepayRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepayRequest.h; sourceTree = "<group>"; };
+		4718E3DB1D70134B0041F9E3 /* LePayWX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LePayWX.h; sourceTree = "<group>"; };
+		4718E3DC1D70134B0041F9E3 /* liblepay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblepay.a; sourceTree = "<group>"; };
+		4718E3DD1D70134B0041F9E3 /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		4718E3DE1D70134B0041F9E3 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		4718E3DF1D70134B0041F9E3 /* PageBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageBaseViewController.h; sourceTree = "<group>"; };
+		4718E3E01D70134B0041F9E3 /* PayForSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayForSuccessViewController.h; sourceTree = "<group>"; };
+		4718E3E11D70134B0041F9E3 /* PaymentOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentOrderViewController.h; sourceTree = "<group>"; };
+		4718E3E21D70134B0041F9E3 /* PickerDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerDateViewController.h; sourceTree = "<group>"; };
+		4718E3E31D70134B0041F9E3 /* RequestHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHUD.h; sourceTree = "<group>"; };
+		4718E3E41D70134B0041F9E3 /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		4718E3E51D70134B0041F9E3 /* ServiceAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceAgreementViewController.h; sourceTree = "<group>"; };
+		4718E3E61D70134B0041F9E3 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		4718E3E71D70134B0041F9E3 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+		4718E3E81D70134B0041F9E3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		4718E3E91D70134B0041F9E3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4718E20F1D6FF0470041F9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4718E29B1D6FF17C0041F9E3 /* libz.tbd in Frameworks */,
+				4718E2991D6FF1760041F9E3 /* libsqlite3.0.tbd in Frameworks */,
+				4718E3EF1D70134B0041F9E3 /* libWeChatSDK.a in Frameworks */,
+				4718E2971D6FF16E0041F9E3 /* libc++.tbd in Frameworks */,
+				4718E2951D6FF1640041F9E3 /* SystemConfiguration.framework in Frameworks */,
+				4718E2931D6FF15A0041F9E3 /* Security.framework in Frameworks */,
+				4718E2911D6FF1540041F9E3 /* PassKit.framework in Frameworks */,
+				4718E3EE1D70134B0041F9E3 /* libSocialWechat.a in Frameworks */,
+				4718E28F1D6FF14F0041F9E3 /* CoreTelephony.framework in Frameworks */,
+				4718E28D1D6FF1490041F9E3 /* UIKit.framework in Frameworks */,
+				4718E28B1D6FF1450041F9E3 /* Foundation.framework in Frameworks */,
+				4718E2891D6FF13B0041F9E3 /* CoreMotion.framework in Frameworks */,
+				4718E2871D6FF1360041F9E3 /* CFNetwork.framework in Frameworks */,
+				4718E3ED1D70134B0041F9E3 /* liblepay.a in Frameworks */,
+				4718E3EB1D70134B0041F9E3 /* AlipaySDK.framework in Frameworks */,
+				4718E2851D6FF12F0041F9E3 /* QuartzCore.framework in Frameworks */,
+				4718E2831D6FF1290041F9E3 /* CoreText.framework in Frameworks */,
+				4718E2811D6FF1230041F9E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4718E2091D6FF0470041F9E3 = {
+			isa = PBXGroup;
+			children = (
+				4718E29A1D6FF17C0041F9E3 /* libz.tbd */,
+				4718E2981D6FF1760041F9E3 /* libsqlite3.0.tbd */,
+				4718E2961D6FF16E0041F9E3 /* libc++.tbd */,
+				4718E2941D6FF1640041F9E3 /* SystemConfiguration.framework */,
+				4718E2921D6FF15A0041F9E3 /* Security.framework */,
+				4718E2901D6FF1540041F9E3 /* PassKit.framework */,
+				4718E28E1D6FF14F0041F9E3 /* CoreTelephony.framework */,
+				4718E28C1D6FF1490041F9E3 /* UIKit.framework */,
+				4718E28A1D6FF1450041F9E3 /* Foundation.framework */,
+				4718E2881D6FF13B0041F9E3 /* CoreMotion.framework */,
+				4718E2861D6FF1360041F9E3 /* CFNetwork.framework */,
+				4718E2841D6FF12F0041F9E3 /* QuartzCore.framework */,
+				4718E2821D6FF1290041F9E3 /* CoreText.framework */,
+				4718E2801D6FF1230041F9E3 /* CoreGraphics.framework */,
+				4718E2141D6FF0470041F9E3 /* LePayDemo */,
+				4718E2131D6FF0470041F9E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4718E2131D6FF0470041F9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4718E2121D6FF0470041F9E3 /* LePayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4718E2141D6FF0470041F9E3 /* LePayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4718E3CC1D70134B0041F9E3 /* 未命名文件夹 */,
+				4718E29C1D6FF2710041F9E3 /* AFNetworking */,
+				4718E2181D6FF0470041F9E3 /* AppDelegate.h */,
+				4718E2191D6FF0470041F9E3 /* AppDelegate.m */,
+				4718E21B1D6FF0470041F9E3 /* ViewController.h */,
+				4718E21C1D6FF0470041F9E3 /* ViewController.m */,
+				4718E21E1D6FF0470041F9E3 /* Main.storyboard */,
+				4718E2211D6FF0470041F9E3 /* Assets.xcassets */,
+				4718E2231D6FF0470041F9E3 /* LaunchScreen.storyboard */,
+				4718E2261D6FF0470041F9E3 /* Info.plist */,
+				4718E2151D6FF0470041F9E3 /* Supporting Files */,
+			);
+			path = LePayDemo;
+			sourceTree = "<group>";
+		};
+		4718E2151D6FF0470041F9E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4718E2161D6FF0470041F9E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4718E29C1D6FF2710041F9E3 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4718E29D1D6FF2710041F9E3 /* AFHTTPRequestOperation.h */,
+				4718E29E1D6FF2710041F9E3 /* AFHTTPRequestOperation.m */,
+				4718E29F1D6FF2710041F9E3 /* AFHTTPRequestOperationManager.h */,
+				4718E2A01D6FF2710041F9E3 /* AFHTTPRequestOperationManager.m */,
+				4718E2A11D6FF2710041F9E3 /* AFHTTPSessionManager.h */,
+				4718E2A21D6FF2710041F9E3 /* AFHTTPSessionManager.m */,
+				4718E2A31D6FF2710041F9E3 /* AFNetworking.h */,
+				4718E2A41D6FF2710041F9E3 /* AFNetworkReachabilityManager.h */,
+				4718E2A51D6FF2710041F9E3 /* AFNetworkReachabilityManager.m */,
+				4718E2A61D6FF2710041F9E3 /* AFSecurityPolicy.h */,
+				4718E2A71D6FF2710041F9E3 /* AFSecurityPolicy.m */,
+				4718E2A81D6FF2710041F9E3 /* AFURLConnectionOperation.h */,
+				4718E2A91D6FF2710041F9E3 /* AFURLConnectionOperation.m */,
+				4718E2AA1D6FF2710041F9E3 /* AFURLRequestSerialization.h */,
+				4718E2AB1D6FF2710041F9E3 /* AFURLRequestSerialization.m */,
+				4718E2AC1D6FF2710041F9E3 /* AFURLResponseSerialization.h */,
+				4718E2AD1D6FF2710041F9E3 /* AFURLResponseSerialization.m */,
+				4718E2AE1D6FF2710041F9E3 /* AFURLSessionManager.h */,
+				4718E2AF1D6FF2710041F9E3 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4718E3CC1D70134B0041F9E3 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+				4718E3CD1D70134B0041F9E3 /* AddCardViewController.h */,
+				4718E3CE1D70134B0041F9E3 /* AlipaySDK.bundle */,
+				4718E3CF1D70134B0041F9E3 /* AlipaySDK.framework */,
+				4718E3D01D70134B0041F9E3 /* CardInformationCell.h */,
+				4718E3D11D70134B0041F9E3 /* CardInformationViewController.h */,
+				4718E3D21D70134B0041F9E3 /* CommonUtils.h */,
+				4718E3D31D70134B0041F9E3 /* Lechienpay.h */,
+				4718E3D41D70134B0041F9E3 /* LePayAP.h */,
+				4718E3D51D70134B0041F9E3 /* LePayBank.h */,
+				4718E3D61D70134B0041F9E3 /* LePayBankCell.h */,
+				4718E3D71D70134B0041F9E3 /* LePayBankModel.h */,
+				4718E3D81D70134B0041F9E3 /* LePayBankViewController.h */,
+				4718E3D91D70134B0041F9E3 /* LePayPicture.bundle */,
+				4718E3DA1D70134B0041F9E3 /* LepayRequest.h */,
+				4718E3DB1D70134B0041F9E3 /* LePayWX.h */,
+				4718E3DC1D70134B0041F9E3 /* liblepay.a */,
+				4718E3DD1D70134B0041F9E3 /* libSocialWechat.a */,
+				4718E3DE1D70134B0041F9E3 /* libWeChatSDK.a */,
+				4718E3DF1D70134B0041F9E3 /* PageBaseViewController.h */,
+				4718E3E01D70134B0041F9E3 /* PayForSuccessViewController.h */,
+				4718E3E11D70134B0041F9E3 /* PaymentOrderViewController.h */,
+				4718E3E21D70134B0041F9E3 /* PickerDateViewController.h */,
+				4718E3E31D70134B0041F9E3 /* RequestHUD.h */,
+				4718E3E41D70134B0041F9E3 /* RSAEncryptor.h */,
+				4718E3E51D70134B0041F9E3 /* ServiceAgreementViewController.h */,
+				4718E3E61D70134B0041F9E3 /* UIButton+countDown.h */,
+				4718E3E71D70134B0041F9E3 /* UIButton+countDown.m */,
+				4718E3E81D70134B0041F9E3 /* WXApi.h */,
+				4718E3E91D70134B0041F9E3 /* WXApiObject.h */,
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4718E2111D6FF0470041F9E3 /* LePayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4718E2291D6FF0470041F9E3 /* Build configuration list for PBXNativeTarget "LePayDemo" */;
+			buildPhases = (
+				4718E20E1D6FF0470041F9E3 /* Sources */,
+				4718E20F1D6FF0470041F9E3 /* Frameworks */,
+				4718E2101D6FF0470041F9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LePayDemo;
+			productName = LePayDemo;
+			productReference = 4718E2121D6FF0470041F9E3 /* LePayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4718E20A1D6FF0470041F9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lechinePay;
+				TargetAttributes = {
+					4718E2111D6FF0470041F9E3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WN2JX495T5;
+					};
+				};
+			};
+			buildConfigurationList = 4718E20D1D6FF0470041F9E3 /* Build configuration list for PBXProject "LePayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4718E2091D6FF0470041F9E3;
+			productRefGroup = 4718E2131D6FF0470041F9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4718E2111D6FF0470041F9E3 /* LePayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4718E2101D6FF0470041F9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4718E3EC1D70134B0041F9E3 /* LePayPicture.bundle in Resources */,
+				4718E2251D6FF0470041F9E3 /* LaunchScreen.storyboard in Resources */,
+				4718E2221D6FF0470041F9E3 /* Assets.xcassets in Resources */,
+				4718E3EA1D70134B0041F9E3 /* AlipaySDK.bundle in Resources */,
+				4718E2201D6FF0470041F9E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4718E20E1D6FF0470041F9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4718E21D1D6FF0470041F9E3 /* ViewController.m in Sources */,
+				4718E2B41D6FF2710041F9E3 /* AFSecurityPolicy.m in Sources */,
+				4718E2B11D6FF2710041F9E3 /* AFHTTPRequestOperationManager.m in Sources */,
+				4718E3F01D70134B0041F9E3 /* UIButton+countDown.m in Sources */,
+				4718E2B51D6FF2710041F9E3 /* AFURLConnectionOperation.m in Sources */,
+				4718E2B01D6FF2710041F9E3 /* AFHTTPRequestOperation.m in Sources */,
+				4718E21A1D6FF0470041F9E3 /* AppDelegate.m in Sources */,
+				4718E2B61D6FF2710041F9E3 /* AFURLRequestSerialization.m in Sources */,
+				4718E2B21D6FF2710041F9E3 /* AFHTTPSessionManager.m in Sources */,
+				4718E2B31D6FF2710041F9E3 /* AFNetworkReachabilityManager.m in Sources */,
+				4718E2B71D6FF2710041F9E3 /* AFURLResponseSerialization.m in Sources */,
+				4718E2B81D6FF2710041F9E3 /* AFURLSessionManager.m in Sources */,
+				4718E2171D6FF0470041F9E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4718E21E1D6FF0470041F9E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4718E21F1D6FF0470041F9E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4718E2231D6FF0470041F9E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4718E2241D6FF0470041F9E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4718E2271D6FF0470041F9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4718E2281D6FF0470041F9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4718E22A1D6FF0470041F9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LePayDemo/SDK/AP",
+					"$(PROJECT_DIR)/LePayDemo/LePaySDK/AP",
+					"$(PROJECT_DIR)/LePayDemo/lepaySD",
+					"$(PROJECT_DIR)/LePayDemo/未命名文件夹",
+				);
+				INFOPLIST_FILE = LePayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LePayDemo/SDK",
+					"$(PROJECT_DIR)/LePayDemo/SDK/WX",
+					"$(PROJECT_DIR)/LePayDemo/LePaySDK",
+					"$(PROJECT_DIR)/LePayDemo/LePaySDK/WX",
+					"$(PROJECT_DIR)/LePayDemo/lepaySD",
+					"$(PROJECT_DIR)/LePayDemo/未命名文件夹",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lechinePay.LePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4718E22B1D6FF0470041F9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LePayDemo/SDK/AP",
+					"$(PROJECT_DIR)/LePayDemo/LePaySDK/AP",
+					"$(PROJECT_DIR)/LePayDemo/lepaySD",
+					"$(PROJECT_DIR)/LePayDemo/未命名文件夹",
+				);
+				INFOPLIST_FILE = LePayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LePayDemo/SDK",
+					"$(PROJECT_DIR)/LePayDemo/SDK/WX",
+					"$(PROJECT_DIR)/LePayDemo/LePaySDK",
+					"$(PROJECT_DIR)/LePayDemo/LePaySDK/WX",
+					"$(PROJECT_DIR)/LePayDemo/lepaySD",
+					"$(PROJECT_DIR)/LePayDemo/未命名文件夹",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lechinePay.LePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4718E20D1D6FF0470041F9E3 /* Build configuration list for PBXProject "LePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4718E2271D6FF0470041F9E3 /* Debug */,
+				4718E2281D6FF0470041F9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4718E2291D6FF0470041F9E3 /* Build configuration list for PBXNativeTarget "LePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4718E22A1D6FF0470041F9E3 /* Debug */,
+				4718E22B1D6FF0470041F9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4718E20A1D6FF0470041F9E3 /* Project object */;
+}
