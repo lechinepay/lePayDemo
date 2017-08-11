@@ -29,6 +29,9 @@
     _goods = @"测试商品";
     _selectedNum = -1;
     [self buildContentView];
+    
+    
+// ---------------------------------0x11x2--------
 }
 
 -(void)buildContentView{
